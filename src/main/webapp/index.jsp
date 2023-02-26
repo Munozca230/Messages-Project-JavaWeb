@@ -71,8 +71,8 @@
                         <a href="edit.jsp?id=<%=message.getId()%>
                            &&message=<%=message.getMessage()%>
                            &&nickname=<%=message.getNickname()%>" 
-                           class="card-link">Edit</a>
-                        <a href="#" class="card-link">Delete</a> 
+                           class="card-link a-font">Edit</a>
+                        <a href="delete.jsp?id=<%=message.getId()%>" class="card-link a-font">Delete</a> 
                     </div>
                 </div>
             </div>

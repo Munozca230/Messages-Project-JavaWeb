@@ -34,13 +34,11 @@
                     <div class="mb-3">
                         <label class="form-label">Your nickname</label>
                         <input type="text" class="form-control" name="nickname" required 
-                               value="<%=request.getParameter("nickname").trim()%>">
+                               value="<%=request.getParameter("message")%>">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Your message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" required>
-                            <%=request.getParameter("message").trim()%>
-                        </textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" required><%=request.getParameter("message")%></textarea>
                     </div>
                     <div class="div-button">
                         <a href="index.jsp" type="submit" class="btn btn-danger">Return</a>

@@ -19,7 +19,7 @@ public class Main {
 //        int entry = messageDao.update(msm);
 //        System.out.println("Edited "+entry+" message");
 
-//        for (int i = 3; i < 13; i++) {         
+//        for (int i = 19; i < 26; i++) {         
 //            Message msm = new Message(i);
 //            int entry = messageDao.delete(msm);
 //            System.out.println("Deleted "+entry+" message");
